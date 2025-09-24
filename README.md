@@ -21,7 +21,7 @@
 ---
 
 ## 설치 방법
-
+git이 설치되지 않았다면 무조건 설치해주셔야 합니다.
 ### 1. 프로젝트 클론
 ```powershell
 git clone https://github.com/zongseung/GenAI-lecture.git
@@ -32,7 +32,6 @@ cd energy-llm
 uv를 이용하면 가상환경 생성 및 패키지 설치를 간단히 할 수 있습니다.
 
 ```powershell
-uv venv  # 가상환경 생성
 uv sync  # pyproject.toml 및 uv.lock 기반 패키지 설치
 ```
 
