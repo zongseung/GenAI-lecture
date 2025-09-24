@@ -9,7 +9,7 @@
 
 - Windows 10 이상  
 - Python 3.10+ (uv가 관리)  
-- [uv 설치](https://github.com/astral-sh/uv#installation)  
+- [uv 설치](https://github.com/astral-sh/uv#installation) 
   - Windows PowerShell에서 설치 (권장):
     ```powershell
     irm https://astral.sh/uv/install.ps1 | iex
@@ -24,7 +24,7 @@
 
 ### 1. 프로젝트 클론
 ```powershell
-git clone https://github.com/<your-repo>/energy-llm.git
+git clone https://github.com/zongseung/GenAI-lecture.git
 cd energy-llm
 ```
 
