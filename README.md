@@ -33,7 +33,7 @@ uv를 이용하면 가상환경 생성 및 패키지 설치를 간단히 할 수
 
 ```powershell
 uv venv  # 가상환경 생성
-uv pip sync  # pyproject.toml 및 uv.lock 기반 패키지 설치
+uv sync  # pyproject.toml 및 uv.lock 기반 패키지 설치
 ```
 
 > ⚠️ Windows에서는 `venv\Scripts\activate`로 가상환경 활성화하세요.
