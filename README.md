@@ -55,12 +55,27 @@ python app.py
 
 ```plaintext
 energy-llm/
-├── app.py
+├── .venv/                # 가상환경 (uv sync 시 자동 생성)
+├── generated/            # 결과물 저장 디렉토리
+├── src/                  # 소스 코드
+│   ├── agents/
+│   ├── utils/
+│   └── workflow/
+├── static/               # 정적 파일 (이미지 등)
+│   ├── detailed_workflow.png
+│   └── langgraph_workflow.png
+├── app.py                # 메인 실행 스크립트 Streamlit
+├── config.py             # 설정 파일
+├── test.ipynb            # 기존 demand 데이터 sqlite 로 생성
+├── .env                  # 환경 변수
+├── .gitignore
+├── Dockerfile
+├── docker-compose.yml
 ├── pyproject.toml
 ├── uv.lock
-├── Dockerfile
-└── data/
-    └── power_demand_final.csv
+├── power_demand_final.csv
+└── power_demand.db
+
 ```
 
 ---
